@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html class='parallax Extracurricular' lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <title>Info</title>
+  <link rel="stylesheet" href="css/style.css">
+
+  <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html">ZK Book Store</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">Home</a></li>
+          <li class="active"><a href="Info.html">Info</a></li>
+          <li><a href="Search.html">Search</a></li>
+          <li><a href="Browse.html">Browse</a></li>
+          <li><a href="Cart.html">Cart</a></li>
+          <li><a href="CheckOut.html">CheckOut</a></li>
+        </ul>
+      </div>
+    </nav>
+</head>
+
+<body>
+  
+<div class="container" id="infoContainer">
+
+  <div class="row">
+    <div class="col-md-4">
+      <figure>
+        <img src="img/lifeofpicover.jpg" alt="" width="100%">
+      </figure>
+
+      <div class="rating" style="font-size: 30px; text-align: center">
+          <h3>Rating: 8.96</h3>
+      </div>
+
+      <div style="font-size: 30px; text-align: center">
+        <h3>Price: $19.99</h3>
+      </div>
+
+      <form action="" class="buy">
+      <input type="input" class="form-control" id="copies" placeholder="Quantity">
+      <button type="submit" class="btn btn-primary mb-2" onclick="myFunction()">Add to Cart</button>
+      </form>
+      
+      <script>
+          function myFunction() {
+            window.alert("Successfully Added to Cart")
+          }
+          </script>
+
+          
+
+    </div>
+
+    <div class="col-md-8" style="font-size: 15px">
+        <h2>Life of Pi</h2>
+        <h3>Author: Yann Martel</h3>
+        <h4>Description:</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt blanditiis itaque, corrupti rerum explicabo ipsum molestiae quod similique ut cumque officia praesentium esse nulla eligendi ullam minima voluptatibus aut earum fugiat sint dolorem beatae repellendus dignissimos et. Iure possimus fuga, veniam ea a eum vero doloribus error at blanditiis, consequatur iste. Ab incidunt cumque ea facilis explicabo impedit suscipit error officia illum iste pariatur placeat aut quis iusto est culpa ad hic, obcaecati nobis architect</p>
+
+    </div>
+
+  </div>
+
+  <div class="row" id="comments">
+      <h3>Related:</h3>
+      <div class="ribbonSection">
+
+          
+          <div class="ribbon">
+              
+              <div class="RibbonItem">
+                      <a href="Info.html">
+                              <img class="Ribboncover" src="img/lifeofpicover.jpg" alt="" >
+                      </a>
+                      
+              </div>
+      
+              <div class="RibbonItem">
+                      <a href="Info.html">
+                              <img class="Ribboncover" src="img/lotr1.jpg" alt="" >
+                      </a>
+              </div>
+      
+              <div class="RibbonItem">
+                      <a href="Info.html">
+                              <img class="Ribboncover" src="img/lotr2.jpg" alt="" >
+                      </a>
+              </div>
+      
+              <div class="RibbonItem">
+                      <a href="Info.html">
+                              <img class="Ribboncover" src="img/lotr3.jpg" alt="" >
+                      </a>
+              </div>
+          </div>
+          </div>
+  </div>
+
+  <div class="row" id="comments" style="font-size: 15px">
+    <div class="col">
+      <h2>Comments</h2>
+      <h3>John Doe</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, mollitia autem. Quam molestias fugit facilis similique dolorem minima architecto reiciendis?</p>
+      <h3>Jane Doe</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, rem, nostrum neque molestiae iusto, voluptatum iure a placeat ducimus labore libero natus itaque similique quidem asperiores porro sunt dolorem incidunt perferendis quis possimus doloremque quas. Iste placeat facilis ducimus at rerum nobis deleniti eum dolorem harum perferendis. Saepe, eaque consequatur.</p>
+
+    </div>
+  </div>
+
+
+</div>
+
+
+
+
+</body>
